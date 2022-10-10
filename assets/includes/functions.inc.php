@@ -103,3 +103,40 @@ function weakPassword($pwd) {
         }
         return $result;
 }
+
+function emptyInputLogin($username, $pwd) {
+    $result;
+    if(empty($username) || empty($pwd)) {
+        $result = true;
+    }
+    else
+    {
+        $result = false;
+    }
+    return $result;
+}
+
+function loginUser($conn, $username, $pwd) {
+    $uidExists = uidExists($conn, $username, $username); // so you can login with username OR email from db
+
+    if ($uidExists === false) { // if both username or email return to false
+        header("location: ../../login.php?error=incorrectlogin");
+        exit();
+    }
+
+    $pwdHashed = $uidExists["usersPwd"];
+    $checkPwd = password_verify($pwd, $pwdHashed);
+
+    if ($checkPwd === false) { // incorrect password error
+        header("location: ../../login.php?error=incorrectlogin"); // error name
+        exit();
+    }
+    else if ($checkPwd === true) { // if it is correct
+        session_start(); // start of a logged in session
+        $_SESSION["userId"] = $uidExists["usersId"]; // super global
+        $_SESSION["useruid"] = $uidExists["usersUid"];
+        header("location: ../../index.php"); // error name
+        exit();
+    }
+
+}

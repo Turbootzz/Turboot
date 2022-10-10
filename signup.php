@@ -59,8 +59,40 @@
   <!-- <div class="text-center">
     <p>Not a member? <a href="#!">Register</a></p>
   </div> -->
+  <?php // All error messages
+  if (isset($_GET["error"])) {
+    if ($_GET["error"] == "emptyinput") {
+      echo "<p class='msg'>Fill in all fields!</p>";
+    }
+    else if ($_GET["error"] == "invaliduid") {
+      echo "<p>Choose a proper username!</p>";
+    }
+    else if ($_GET["error"] == "invalidemail") {
+      echo "<p>Choose proper email!</p>";
+    }
+    else if ($_GET["error"] == "passwordsdontmatch") {
+      echo "<p>Fill in all fields!</p>";
+    }
+    else if ($_GET["error"] == "stmtfailed") {
+      echo "<p>Something went wrong, please try again</p>";
+    }
+    else if ($_GET["error"] == "weakpassword") {
+      echo "<p>Password too weak!</p>";
+    }
+    else if ($_GET["error"] == "useralreadyexists") {
+      echo "<p>User already exists</p>";
+    }
+    else if ($_GET["error"] == "none") {
+      echo "<p>You hase successfully signed up!</p>";
+      echo "<p>Log in  <a class='text-white' href='login.php'><u>here</u></a></p>";
+    }
+  }
+  
+  ?>
+
 </form>
   </div>
-<?php
+
+  <?php
   include_once "footer.php";
 ?>
