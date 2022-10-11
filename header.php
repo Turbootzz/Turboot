@@ -12,7 +12,7 @@
     <meta name="generator" content="Hugo 0.88.1">
     <title>Turboot</title>
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/cover/">
-    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="assets/css/main.css?v=<?php echo time(); ?>"> 
     <style>
       .bd-placeholder-img {
