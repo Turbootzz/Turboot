@@ -42,13 +42,14 @@
         <a class="nav-link" href="#">Servers</a>
         <a class="nav-link" href="#">About Me</a>
         <a class="nav-link" href="#">Contact</a>
+        
         <?php // Changes the way something looks by having logged in
           if (isset($_SESSION["useruid"])) {
-            echo "<a class='nav-link' data-bs-toggle='dropdown' aria-expanded='false'>Account</a>";
-            echo "<ul class='dropdown-menu' aria-labelledby='dropdownMenuButton1'>";
-            echo "<li><a class='dropdown-item' href='profile.php'>Profile</a></li>";
-            echo "<li><a class='dropdown-item' href='assets/includes/logout.inc.php'>Log out</a></li>";
-            echo "</ul>";
+            // echo "<a class='nav-link' data-bs-toggle='dropdown' aria-expanded='false'>Account</a>";
+            // echo "<ul class='dropdown-menu' aria-labelledby='dropdownMenuButton1'>";
+            echo "<a class='nav-link' href='profile.php'>Profile</a></li>";
+            // echo "<li><a class='dropdown-item' href='assets/includes/logout.inc.php'>Log out</a></li>";
+            // echo "</ul>";
           }
           else { // if not logged in you get this below
             echo "<a class='nav-link' href='login.php'>Login</a>";
