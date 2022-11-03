@@ -138,5 +138,4 @@ function loginUser($conn, $username, $pwd) {
         header("location: ../../index.php"); // error name
         exit();
     }
-
 }

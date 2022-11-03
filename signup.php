@@ -1,7 +1,8 @@
 <?php
   include_once "header.php";
 ?>
-<div class="login-form square rounded p-4 m-4 rounded">
+<div class="login-whole">
+<div class="login-form square rounded m-4 rounded">
 <h2>Sign Up</h2>
 <br>
 <form action="assets/includes/signup.inc.php" method="post">
@@ -87,12 +88,10 @@
       echo "<p>Log in  <a class='text-white' href='login.php'><u>here</u></a></p>";
     }
   }
-  
   ?>
-
 </form>
   </div>
-
-  <?php
+  </div>
+<?php
   include_once "footer.php";
 ?>
