@@ -11,6 +11,7 @@ session_start();
   <meta name="author" content="Thijs Herman">
   <meta name="generator" content="Hugo 0.88.1">
   <title>Turboot</title>
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
   <link rel="stylesheet" type="text/css" href="assets/css/main.css?v=<?php echo time(); ?>">
   <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/cover/">
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
