@@ -7,8 +7,8 @@ include_once "header.php";
 <div class="container-fluid centerr">
   <h1>Projects I made</h1>
   <div class="cards">
-    <div class="cardz"><a class="cardlink" href="projects/snake">
-        <img class="cardimg" src="assets/img/snake1.png" alt="The Snake Game" style="width:100%">
+    <div class="cardz"><a class="cardlink" href="https://github.com/Turbootzz/webshop1">
+        <img class="cardimg" src="assets/img/phonium1.png" alt="Phonium Webshop" style="width:100%">
         <div class="cardtext">
           <h4><b>Phonium Webshop</b></h4>
           <p>Made in PHP. A fully functioning webshop. Click to view.</p>
@@ -31,10 +31,10 @@ include_once "header.php";
         </div>
       </a>
     </div>
-  <!-- </div> -->
-  <!-- <div class="cards"> -->
-    <div class="cardz"><a class="cardlink" href="https://github.com/Turbootzz/webshop1">
-        <img class="cardimg" src="assets/img/phonium1.png" alt="Phonium Webshop" style="width:100%">
+    <!-- </div> -->
+    <!-- <div class="cards"> -->
+    <div class="cardz"><a class="cardlink" href="projects/snake">
+        <img class="cardimg" src="assets/img/snake1.png" alt="The Snake Game" style="width:100%">
         <div class="cardtext">
           <h4><b>Snake</b></h4>
           <p>Made in Javascript and it was my first web game I made. Click to play.</p>
