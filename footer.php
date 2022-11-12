@@ -1,4 +1,4 @@
-</main> <!-- style="line-height: 0.2;padding-top: 5px;" -->
+</main>
 </div>
 <footer class="mt-auto text-white-50">
 
@@ -12,8 +12,8 @@
 </footer>
 
 <!-- <script type="text/javascript" src="assets/js/popper.min.js"></script> -->
-<script type="text/javascript" src="assets/js/main.js"></script>
-<script type="text/javascript" src="assets/js/bootstrap.bundle.min.js"></script>
-<script type="text/javascript" src="assets/js/bootstrap.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/bootstrap.bundle.min.js"></script>
+<script src="assets/js/bootstrap.js"></script>
 </body>
 </html>
