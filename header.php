@@ -60,7 +60,7 @@ require "assets/includes/functions.inc.php"; // calls for the functions from fil
         ?>
           <!-- <a class="nav-link" href="login.php">Login</a> -->
         </nav>
-    </header>
       </div>
+      </header>
     <div class="cover-container d-flex w-100 h-100 mx-auto flex-column">
     <main class="px-3">
