@@ -12,13 +12,8 @@ body {
   margin: 0;
 }
 
-.cardlink {
-  text-decoration: none;
-  color: white;
-}
-.cardlink:hover {
-  text-decoration: none;
-  color: white;
+.cover-container {
+  max-width: 1200px;
 }
 
 /* --header-- */
@@ -41,6 +36,7 @@ header {
   padding: 250px;
 }
 
+
 /* Login / Sign up page */
 .login-whole {
   padding-left: 250px;
@@ -56,15 +52,16 @@ header {
 
 /* Projects Page*/
 .cards {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 10px;
 }
 
-.card {
+.cardz {
   background-color: rgb(38, 38, 38);
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width: 29.19%;
+  /* width: 29.19%; */
   border-radius: 5px;
   margin: 10px;
   float: left;
@@ -77,9 +74,20 @@ header {
 .cardimg {
   border-radius: 5px 5px 0 0;
 }
+
 .cardtext {
   padding: 2px 16px;
   background-color: rgb(38, 38, 38);
+}
+
+.cardlink {
+  text-decoration: none;
+  color: white;
+}
+
+.cardlink:hover {
+  text-decoration: none;
+  color: white;
 }
 
 /* --Footer-- */
@@ -92,4 +100,37 @@ footer {
 
 .footertext {
   margin: auto;
+}
+
+/* Responsive */
+@media screen and (max-width: 992px) {
+  .middletext {
+    padding: 150px;
+    margin: 0;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+  }
+  .login-whole {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .middletext {
+    padding: 0;
+    margin: 0;
+  }
+  .cards {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+  }
+  .login-whole {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
