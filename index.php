@@ -9,6 +9,7 @@ include_once "header.php";
   <p class="lead">
     <a href="#" class="btn btn-lg btn-secondary fw-bold border-white bg-white">Learn More</a>
   </p>
+</div>
   <?php
 include_once "footer.php";
 ?>

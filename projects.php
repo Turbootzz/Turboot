@@ -59,6 +59,8 @@ include_once "header.php";
     </div>
   </div>
 </div>
+<div class="spacing">
+</div>
 <br>
 <br>
 <?php

@@ -10,31 +10,31 @@ include_once "header.php";
       <!-- Full Name input -->
       <div class="form-outline mb-4">
         <p>Full Name</p>
-        <input type="text" name="name" class="form-control" placeholder="Full Name" />
+        <input type="text" name="name" class="form-control" placeholder="Full Name">
       </div>
 
       <!-- Email input -->
       <div class="form-outline mb-4">
         <p>Email</p>
-        <input type="email" name="email" class="form-control" placeholder="Email" />
+        <input type="email" name="email" class="form-control" placeholder="Email">
       </div>
 
       <!-- Username input -->
       <div class="form-outline mb-4">
         <p>Username</p>
-        <input type="text" name="uid" class="form-control" placeholder="Username" />
+        <input type="text" name="uid" class="form-control" placeholder="Username">
       </div>
 
       <!-- Password input -->
       <div class="form-outline mb-4">
         <p>Password</p>
-        <input type="password" name="pwd" class="form-control" placeholder="Password" />
+        <input type="password" name="pwd" class="form-control" placeholder="Password">
       </div>
 
       <!-- Password Repeat input -->
       <div class="form-outline mb-4">
         <p>Repeat Password</p>
-        <input type="password" name="pwdrepeat" class="form-control" placeholder="Repeat Password" />
+        <input type="password" name="pwdrepeat" class="form-control" placeholder="Repeat Password">
       </div>
 
       <!-- 2 column grid layout for inline styling -->

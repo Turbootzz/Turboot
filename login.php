@@ -10,13 +10,13 @@ include_once "header.php";
       <!-- Email or Username input -->
       <div class="form-outline mb-4">
         <p>Username or Email</p>
-        <input type="text" name="uid" class="form-control" placeholder="Email or Username" />
+        <input type="text" name="uid" class="form-control" placeholder="Email or Username">
       </div>
 
       <!-- Password input -->
       <div class="form-outline mb-4">
         <p>Password</p>
-        <input type="password" name="pwd" class="form-control" placeholder="Password" />
+        <input type="password" name="pwd" class="form-control" placeholder="Password">
       </div>
 
       <!-- 2 column grid layout for inline styling -->

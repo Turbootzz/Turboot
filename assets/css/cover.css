@@ -40,9 +40,11 @@
  * Header
  */
 
-.nav-masthead .nav-link {
+ .nav-masthead .nav-link {
   color: rgba(255, 255, 255, .5);
   border-bottom: .25rem solid transparent;
+  /* padding-top: 19px; */
+  height: 55px;
 }
 
 .nav-masthead .nav-link:hover,

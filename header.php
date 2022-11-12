@@ -34,12 +34,17 @@ require "assets/includes/functions.inc.php"; // calls for the functions from fil
   <link href="assets/css/cover.css" rel="stylesheet">
 </head>
 <!-- bg-dark -->
-<body class="d-flex h-100 text-center text-white bg-dark" >
+<!-- h-100 -->
+<body class="d-flex text-center text-white bg-dark" >
 <!-- <div class="bg-img" style="background-image: url(assets/img/bg.png)" alt="bg"> -->
-  <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-    <header class="mb-auto" style="display:inline-block;margin-right:10px;">
-      <div>
-        <h3 class="float-md-start mb-0" style="display:inline-block;">Turboot</h3>
+
+  <!-- style="display:inline-block;margin-right:10px;" -->
+    <header class="mb-auto" >
+    
+    <!-- container -->
+    <div class="headernav">
+    
+        <h3 class="float-md-start mb-0 p-1" style="display:inline-block;">Turboot</h3>
         <nav class="nav nav-masthead justify-content-center float-md-end">
           <a class="nav-link <?php active('index.php'); active('');?>" aria-current="page" href="index.php">Home</a>
           <a class="nav-link <?php active('servers.php');?>" href="#">Servers</a>
@@ -55,6 +60,7 @@ require "assets/includes/functions.inc.php"; // calls for the functions from fil
         ?>
           <!-- <a class="nav-link" href="login.php">Login</a> -->
         </nav>
-      </div>
     </header>
+      </div>
+    <div class="cover-container d-flex w-100 h-100 mx-auto flex-column">
     <main class="px-3">

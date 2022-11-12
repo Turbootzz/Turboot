@@ -5,24 +5,51 @@
 */
 
 /* --Globals-- */
+
 body {
   background-color: rgb(213, 19, 19);
   display: flex;
   flex-direction: column;
-  margin: 0;
+  flex-grow: 1;
+  min-height: 100vh;
 }
 
 .cover-container {
   max-width: 1200px;
+  /* width: 100%; */
+  
+}
+.headernav {
+  width: 1200px;
+}
+
+/* Custom default button */
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none;
+}
+
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
 }
 
 /* --header-- */
 
 header {
   /* background-color: aliceblue; */
+  background-color: rgb(28, 28, 28);
   width: 100%;
   display: flex;
   justify-content: center;
+  padding: 10px;
+  max-height: 65px;
 }
 
 /* --Main-- */
@@ -96,6 +123,8 @@ footer {
   width: 100%;
   display: flex;
   justify-content: center;
+  background-color: rgb(28, 28, 28);
+  padding: 20px;
 }
 
 .footertext {
@@ -104,6 +133,9 @@ footer {
 
 /* Responsive */
 @media screen and (max-width: 992px) {
+  header {
+    max-height: 65px;
+  }
   .middletext {
     padding: 150px;
     margin: 0;
@@ -119,7 +151,10 @@ footer {
   }
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 767px) {
+  header {
+    max-height: 103px;
+  }
   .middletext {
     padding: 0;
     margin: 0;
@@ -132,5 +167,11 @@ footer {
   .login-whole {
     padding-left: 0;
     padding-right: 0;
+  }
+}
+/* only for header */
+@media screen and (max-width: 611px) {
+  header {
+    max-height: 156px;
   }
 }
