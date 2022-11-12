@@ -2,14 +2,16 @@
 include_once "header.php";
 ?>
 <br>
+<br>
+<br>
 <div class="container-fluid centerr">
   <h1>Projects I made</h1>
   <div class="cards">
-    <div class="card"><a class="cardlink" href="projects/snake">
-        <img class="cardimg" src="assets/img/snake1.png" alt="The Snake Game" style="width:100%">
+  <div class="card"><a class="cardlink" href="https://github.com/Turbootzz/webshop1">
+        <img class="cardimg" src="assets/img/phonium1.png" alt="Phonium Webshop" style="width:100%">
         <div class="cardtext">
-          <h4><b>Snake</b></h4>
-          <p>Made in Javascript and it was my first web game I made. Click to play.</p>
+          <h4><b>Phonium Webshop</b></h4>
+          <p>Made in PHP. A fully functioning webshop. Click to view.</p>
         </div>
       </a>
     </div>
@@ -31,11 +33,11 @@ include_once "header.php";
     </div>
   </div>
   <div class="cards">
-    <div class="card"><a class="cardlink" href="https://github.com/Turbootzz/webshop1">
-        <img class="cardimg" src="assets/img/phonium1.png" alt="Phonium Webshop" style="width:100%">
+  <div class="card"><a class="cardlink" href="projects/snake">
+        <img class="cardimg" src="assets/img/snake1.png" alt="The Snake Game" style="width:100%">
         <div class="cardtext">
-          <h4><b>Phonium Webshop</b></h4>
-          <p>Made in PHP. A fully functioning webshop. Click to view.</p>
+          <h4><b>Snake</b></h4>
+          <p>Made in Javascript and it was my first web game I made. Click to play.</p>
         </div>
       </a>
     </div>
@@ -57,6 +59,7 @@ include_once "header.php";
     </div>
   </div>
 </div>
+<br>
 <br>
 <?php
 include_once "footer.php";
