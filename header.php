@@ -33,12 +33,14 @@ require "assets/includes/functions.inc.php"; // calls for the functions from fil
   <!-- Custom styles -->
   <link href="assets/css/cover.css" rel="stylesheet">
 </head>
-<body class="d-flex text-center text-white bg-dark" >
+<!-- text-white bg-dark -->
+<body class="d-flex text-center" >
 <!-- <div class="bg-img" style="background-image: url(assets/img/bg.png)" alt="bg"> -->
     <header class="mb-auto" >
     <!-- header div -->
     <div class="headernav">
-        <h3 class="float-md-start mb-0 p-1" style="display:inline-block;">Turboot</h3>
+        <!-- <img src="assets/img/icon.png" alt="Turboot Icon" width="50" height="50" style="float: right;"> -->
+        <h3 class="turboot-title float-md-start mb-0 p-1" style="display:inline-block;">Turboot</h3>
         <nav class="nav nav-masthead justify-content-center float-md-end">
           <a class="nav-link <?php active('index.php'); active('');?>" aria-current="page" href="index.php">Home</a>
           <a class="nav-link <?php active('servers.php');?>" href="#">Servers</a>

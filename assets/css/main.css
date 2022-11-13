@@ -7,7 +7,10 @@
 /* --Globals-- */
 
 body {
-  background-color: rgb(213, 19, 19);
+  /* background-color: #8D99AE !important; */
+  background-color: #7888a5 !important;
+  color: #EDF2F4 !important;
+  /* color: rgb(22, 22, 22) !important; */
   display: flex;
   flex-direction: column;
   flex-grow: 1;
@@ -36,20 +39,25 @@ body {
 .btn-default:focus {
   color: #333;
   text-shadow: none; /* Prevent inheritence from `body` */
-  background-color: #fff;
+  /* background-color: #fff; */
+  background-color: #EDF2F4 ;
   border: 1px solid #fff;
 }
 
 /* --header-- */
 
 header {
-  /* background-color: aliceblue; */
-  background-color: rgb(28, 28, 28);
+  /* background-color: rgb(28, 28, 28); */
+  background-color: #2B2D42;
   width: 100%;
   display: flex;
   justify-content: center;
   padding: 10px;
   max-height: 65px;
+}
+
+.turboot-title {
+  color: #EDF2F4;
 }
 
 /* --Main-- */
@@ -63,14 +71,14 @@ header {
   padding: 250px;
 }
 
-
 /* Login / Sign up page */
 .login-whole {
   padding-left: 250px;
   padding-right: 250px;
 }
 .login-form {
-  background-color: rgb(63, 63, 63);
+  /* background-color: rgb(63, 63, 63); */
+  background-color: #2B2D42;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   padding-left: 80px;
@@ -85,7 +93,8 @@ header {
 }
 
 .cardz {
-  background-color: rgb(38, 38, 38);
+  /* background-color: rgb(38, 38, 38); */
+  background-color: #2B2D42;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   /* width: 29.19%; */
@@ -104,7 +113,7 @@ header {
 
 .cardtext {
   padding: 2px 16px;
-  background-color: rgb(38, 38, 38);
+  /* background-color: rgb(38, 38, 38); */
 }
 
 .cardlink {
@@ -123,7 +132,7 @@ footer {
   width: 100%;
   display: flex;
   justify-content: center;
-  background-color: rgb(28, 28, 28);
+  background-color: #2B2D42;
   padding: 20px;
 }
 

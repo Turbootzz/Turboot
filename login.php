@@ -2,7 +2,7 @@
 include_once "header.php";
 ?>
 <div class="login-whole">
-  <div class="login-form square rounded  m-4 rounded">
+  <div class="login-form square rounded-3 m-4">
     <h2>Login</h2>
     <br>
     <form action="assets/includes/login.inc.php" method="post">
