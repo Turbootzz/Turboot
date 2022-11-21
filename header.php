@@ -43,8 +43,8 @@ require "assets/includes/functions.inc.php"; // calls for the functions from fil
         <h3 class="turboot-title float-md-start mb-0 p-1" style="display:inline-block;">Turboot</h3>
         <nav class="nav nav-masthead justify-content-center float-md-end">
           <a class="nav-link <?php active('index.php'); active('');?>" aria-current="page" href="index.php">Home</a>
-          <a class="nav-link <?php active('servers.php');?>" href="servers.php">Servers</a>
           <a class="nav-link <?php active('projects.php');?>" href="projects.php">Projects</a>
+          <a class="nav-link <?php active('servers.php');?>" href="servers.php">Servers</a>
           <a class="nav-link <?php active('aboutme.php');?>" href="aboutme.php">About Me</a>
           <a class="nav-link <?php active('contact.php');?>" href="contact.php">Contact</a>
           <?php // Changes the way something looks by having logged in
