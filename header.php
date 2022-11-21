@@ -46,7 +46,7 @@ require "assets/includes/functions.inc.php"; // calls for the functions from fil
           <a class="nav-link <?php active('servers.php');?>" href="#">Servers</a>
           <a class="nav-link <?php active('projects.php');?>" href="projects.php">Projects</a>
           <a class="nav-link <?php active('aboutme.php');?>" href="#">About Me</a>
-          <a class="nav-link <?php active('contact.php');?>" href="#">Contact</a>
+          <a class="nav-link <?php active('contact.php');?>" href="contact.php">Contact</a>
           <?php // Changes the way something looks by having logged in
         if (isset($_SESSION["useruid"])) {
           echo "<a class='nav-link "; active('profile.php'); echo "' href='profile.php'>Profile</a></li>";
