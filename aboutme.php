@@ -11,7 +11,9 @@ include_once "header.php";
         <img class="aboutme-cardimg" src="assets/img/me1.png" alt="Phonium Webshop" style="height: 500px;">
         <div class="aboutme-cardtext">
           <h4><b>Who am I?</b></h4>
-          <p>My name is Thijs Herman, I am a junior web developer with experience in multiple languages and libraries.</p>
+          <p>My name is Thijs Herman, I am a junior web developer with 
+            experience in multiple languages and libraries.</p>
+            <a href="assets/img/thijs-cv-dutch.pdf"><p>Thijs Herman CV - Dutch</p></a>
         </div>
       </a>
     </div>
