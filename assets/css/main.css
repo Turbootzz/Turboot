@@ -336,19 +336,23 @@ footer {
 }
 
 /* Responsive */
+
 @media screen and (max-width: 992px) {
   header {
     max-height: 65px;
   }
+
   .middletext {
     padding: 150px;
     margin: 0;
   }
+
   .cards {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 10px;
   }
+
   .login-whole {
     padding-left: 100px;
     padding-right: 100px;
@@ -359,15 +363,18 @@ footer {
   header {
     max-height: 103px;
   }
+
   .middletext {
     padding: 0;
     margin: 0;
   }
+
   .cards {
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 10px;
   }
+
   .login-whole {
     padding-left: 0;
     padding-right: 0;
@@ -379,3 +386,5 @@ footer {
     max-height: 156px;
   }
 }
+
+/* Turboot - END */
