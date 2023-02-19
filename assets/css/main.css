@@ -6,11 +6,13 @@
 
 /* --Globals-- */
 
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
 body {
-  /* background-color: #8D99AE !important; */
-  background-color: #7888a5 !important;
-  color: #EDF2F4 !important;
-  /* color: rgb(22, 22, 22) !important; */
+  /* background-color: #7888a5 !important; */
+  font-family: 'Nanum Gothic', sans-serif !important;
+  background-image: url("../img/bg1.png") !important;
+  color: #e1e6e8 !important;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
@@ -19,9 +21,9 @@ body {
 
 .cover-container {
   max-width: 1200px;
-  /* width: 100%; */
-  
+  position: relative;
 }
+
 .headernav {
   width: 1200px;
 }
@@ -47,8 +49,7 @@ body {
 /* --header-- */
 
 header {
-  /* background-color: rgb(28, 28, 28); */
-  background-color: #2B2D42;
+  /* background-color: #2B2D42; */
   width: 100%;
   display: flex;
   justify-content: center;
@@ -57,14 +58,24 @@ header {
 }
 
 .turboot-title {
-  color: #EDF2F4;
+  color: white;
 }
 
 /* --Main-- */
 
 /* Index */
+.title {
+  color: white;
+}
 .middletext {
   padding: 250px;
+}
+.banner-1 {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  background-color: white;
+  color: black;
+  text-align: left;
 }
 
 /* Login / Sign up page */

@@ -58,4 +58,5 @@ require "assets/includes/functions.inc.php"; // calls for the functions from fil
       </div>
       </header>
     <div class="cover-container d-flex w-100 h-100 mx-auto flex-column">
-    <main class="px-3">
+      <!-- used to have px-3 -->
+    <main>
