@@ -2,7 +2,7 @@
 
 
 // pulls the information from the form at signup.php
-if(isset($_POST["submit"])) {
+if (isset($_POST["submit"])) {
     $name = $_POST["name"];
     $email = $_POST["email"];
     $username = $_POST["uid"];
@@ -39,8 +39,7 @@ if(isset($_POST["submit"])) {
 
     createUser($conn, $name, $email, $username, $pwd);
 
-}
-else { // Makes sure that you got to this page the proper way
+} else { // Makes sure that you got to this page the proper way
     header("location: ../../signup.php");
     exit();
 }

@@ -1,7 +1,6 @@
 </main>
 </div>
 <footer class="mt-auto text-white-50">
-
   <p class="footertext">Source code in 
     <a href="https://github.com/Turbootzz/Turboot" class="url-normal">Github</a>, by <a
       href="https://twitter.com/ThijsHerman1" class="url-normal">@Thijs Herman</a>.</p>
@@ -11,7 +10,6 @@
   // }
   ?>
 </footer>
-
 <!-- <script type="text/javascript" src="assets/js/popper.min.js"></script> -->
 <script src="assets/js/main.js"></script>
 <script src="assets/js/bootstrap.bundle.min.js"></script>
