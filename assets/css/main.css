@@ -11,7 +11,10 @@
 body {
   /* background-color: #7888a5 !important; */
   font-family: 'Nanum Gothic', sans-serif !important;
-  background-image: url("../img/bg1.png") !important;
+  /* background-image: url("../img/bg1.png") !important; */
+  background-color: #006da2;
+  background-image: linear-gradient(254deg, #006da2 0%, #74c5b5 100%);
+  background-attachment: fixed; /*edit*/
   color: #e1e6e8 !important;
   display: flex;
   flex-direction: column;
@@ -46,6 +49,24 @@ body {
   border: 1px solid #fff;
 }
 
+.url-normal {
+  color: #e1e6e8;
+  text-decoration: none;
+  position: relative;
+}
+.url-normal:after {
+  content: '';
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  border-width: 0 0 1px;
+  border-style: solid;
+}
+.url-normal:hover {
+  color: #e1e6e8;
+}
+
 /* --header-- */
 
 header {
@@ -63,20 +84,73 @@ header {
 
 /* --Main-- */
 
+.line-1 {
+  width:10%;
+}
+.line-2 {
+  width:20%;
+}
+
+.line-center {
+  width:20%;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
 /* Index */
 .title {
   color: white;
+  font-size: 60px;
 }
 .middletext {
   padding: 250px;
+  font-size: 30px;
 }
 .banner-1 {
   width: 100vw;
   margin-left: calc(50% - 50vw);
   background-color: white;
-  color: black;
+  color: rgb(97, 97, 97);
   text-align: left;
 }
+
+.banner-1-text {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: rgb(139, 139, 139);
+}
+.section-div {
+  padding: 6em 0 4em 0;
+}
+
+.image-fit {
+  margin: 0 0 2em 0;
+}
+
+.banner-2 {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  background-color: rgb(35, 52, 45);
+  color: white;
+  text-align: left;
+}
+
+.banner-2-text {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: rgb(188, 188, 188);
+}
+
+.banner-4 {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  background-color: rgb(35, 52, 45);
+  color: white;
+  text-align: center;
+}
+
 
 /* Login / Sign up page */
 .login-whole {
@@ -338,12 +412,16 @@ footer {
   width: 100%;
   display: flex;
   justify-content: center;
-  background-color: #2B2D42;
+  /* background-color: #2B2D42; */
   padding: 20px;
+  height: 300px;
 }
 
 .footertext {
   margin: auto;
+  color: #e1e6e8 !important;
+  font-size: 1.2rem;
+  font-weight: 300;
 }
 
 /* Responsive */
