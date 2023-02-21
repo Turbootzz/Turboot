@@ -10,6 +10,11 @@ include_once "header.php";
     <a href="#" class="btn btn-lg btn-outline-light">Learn More</a>
   </p>
 </div>
+<section class="banner-news">
+<div class="news-section container">
+    <p id="news-text">New website design.</p>
+  </div>
+</section>
 <section class="banner-1">
   <div class="section-div container">
     <div class="row">
@@ -56,9 +61,9 @@ include_once "header.php";
     <br>
     <div class="row">
       <div class="col-4 col-12-medium">
-        <span class="image-fit border border-success">
+        <span class="image-fit">
           <a href="https://cloud.turboot.com">
-            <img class="img-fluid rounded" src="assets/img/turboot-cloud.png" alt="Turboot Cloud">
+            <img class="img-fluid rounded border border-success" src="assets/img/turboot-cloud.png" alt="Turboot Cloud">
           </a>
         </span>
         <h3 class="pb-3">Turboot Cloud</h3>
@@ -67,9 +72,9 @@ include_once "header.php";
         </a>
       </div>
       <div class="col-4 col-12-medium">
-        <span class="image-fit border border-success">
+        <span class="image-fit">
           <a href="https://jelly.turboot.com">
-            <img class="img-fluid rounded" src="assets/img/turboot-jelly.png" alt="Turboot Jellyfin">
+            <img class="img-fluid rounded border border-success" src="assets/img/turboot-jelly.png" alt="Turboot Jellyfin">
           </a>
         </span>
         <h3 class="pb-3">Jellyfin (Films & Series)</h3>
@@ -78,9 +83,9 @@ include_once "header.php";
         </a>
       </div>
       <div class="col-4 col-12-medium">
-        <span class="image-fit border border-success">
+        <span class="image-fit">
           <a href="servers.php">
-            <img class="img-fluid rounded" src="assets/img/turboot-hosting.png" alt="Turboot Hosting">
+            <img class="img-fluid rounded border border-success" src="assets/img/turboot-hosting.png" alt="Turboot Hosting">
           </a>
         </span>
         <h3 class="pb-3">Hosting</h3>
