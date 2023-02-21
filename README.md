@@ -3,8 +3,9 @@
 
 ## Navigation bar
 - [Home](https://turboot.com)
+- [Services](https://turboot.com/services.php)
+- [Projects](https://turboot.com/projects.php)
 - [Servers](https://turboot.com/servers.php)
-- [About Me](https://turboot.com/aboutme.php)
 - [Contact](https://turboot.com/contact.php)
 - [Login](https://turboot.com/login.php)
 
