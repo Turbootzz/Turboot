@@ -59,14 +59,15 @@ include_once "header.php";
         contact</a> page or message me on Discord: Turboot#3918.
     </p>
     <br>
-    <div class="row">
+    <div class="row" id="">
       <div class="col-4 col-12-medium">
         <span class="image-fit">
           <a href="https://cloud.turboot.com">
             <img class="img-fluid rounded border border-success" src="assets/img/turboot-cloud.png" alt="Turboot Cloud">
           </a>
         </span>
-        <h3 class="pb-3">Turboot Cloud</h3>
+        <h3 class="pb-3 turboot-cloud-long">Turboot Cloud</h3>
+        <h3 class="turboot-cloud-short">Cloud</h3>
         <a href="https://cloud.turboot.com">
           <button type="button" class="btn btn-outline-secondary">Click Here</button>
         </a>
@@ -77,7 +78,8 @@ include_once "header.php";
             <img class="img-fluid rounded border border-success" src="assets/img/turboot-jelly.png" alt="Turboot Jellyfin">
           </a>
         </span>
-        <h3 class="pb-3">Jellyfin (Films & Series)</h3>
+        <h3 class="pb-3 jellyfin-long">Jellyfin (Films & Series)</h3>
+        <h3 class="jellyfin-short">Jellyfin</h3>
         <a href="https://jelly.turboot.com">
           <button type="button" class="btn btn-outline-secondary">Click Here</button>
         </a>
