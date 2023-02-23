@@ -69,3 +69,5 @@
 # Database template
 *.sql
 
+# config with keys
+config.js
