@@ -117,8 +117,26 @@ header {
 }
 
 .middletext {
+  animation: fadeIn ease 2s;
   padding: 250px;
   font-size: 30px;
+}
+
+.middletext h1, .middletext p, .middletext a{
+  animation: 1.2s slide-up 0.4s forwards;
+    transform:translateY(800%);
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  30% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes slide-up {
+  to {
+    transform:translateY(0);
+  }
 }
 
 .banner-news {
