@@ -78,7 +78,7 @@ include_once "header.php";
       echo "<p>User already exists</p>";
     } else if ($_GET["error"] == "none") {
       echo "<p>You hase successfully signed up!</p>";
-      echo "<p>Log in  <a class='text-white' href='login.php'><u>here</u></a></p>";
+      echo "<p>Log in  <a class='text-white' href='login'><u>here</u></a></p>";
     }
   }
   ?>

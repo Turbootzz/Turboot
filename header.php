@@ -26,21 +26,21 @@ require "assets/includes/functions.inc.php"; // calls for the functions from fil
       <!-- <img src="assets/img/icon.png" alt="Turboot Icon" width="50" height="50" style="float: right;"> -->
       <h3 class="turboot-title float-md-start mb-0 p-1" style="display:inline-block;">Turboot</h3>
       <nav class="nav nav-masthead justify-content-center float-md-end">
-        <a class="nav-link <?php active('index.php');
-        active(''); ?>" aria-current="page" href="index.php">Home</a>
-        <a class="nav-link <?php active('services.php'); ?>" href="services.php">Services</a>
-        <a class="nav-link <?php active('projects.php'); ?>" href="projects.php">Projects</a>
-        <a class="nav-link <?php active('servers.php'); ?>" href="servers.php">Servers</a>
-        <a class="nav-link <?php active('contact.php'); ?>" href="contact.php">Contact</a>
+        <a class="nav-link <?php active('/');
+        active(''); ?>" aria-current="page" href="/">Home</a>
+        <a class="nav-link <?php active('services'); ?>" href="services">Services</a>
+        <a class="nav-link <?php active('project'); ?>" href="project">Projects</a>
+        <a class="nav-link <?php active('servers'); ?>" href="servers">Servers</a>
+        <a class="nav-link <?php active('contact'); ?>" href="contact">Contact</a>
         <?php // Changes the way something looks by having logged in
         if (isset($_SESSION["useruid"])) {
           echo "<a class='nav-link ";
-          active('profile.php');
-          echo "' href='profile.php'>Profile</a></li>";
+          active('profile');
+          echo "' href='profile'>Profile</a></li>";
         } else { // if not logged in you get this below
           echo "<a class='nav-link ";
-          active('login.php');
-          echo "' href='login.php'>Login</a>";
+          active('login');
+          echo "' href='login'>Login</a>";
         }
         ?>
       </nav>

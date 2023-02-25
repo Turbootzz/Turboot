@@ -40,6 +40,6 @@ if (isset($_POST["submit"])) {
     createUser($conn, $name, $email, $username, $pwd);
 
 } else { // Makes sure that you got to this page the proper way
-    header("location: ../../signup.php");
+    header("location: ../../signup");
     exit();
 }

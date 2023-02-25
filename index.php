@@ -4,7 +4,7 @@ include_once "header.php";
 <div class="middletext">
   <h1 class="title">Thijs Herman</h1>
   <p class="lead">This website is made for my personal projects. Everything is still in development. If you're looking
-    for a web developer or if you want to host any server please contact me at the <a href="contact.php"
+    for a web developer or if you want to host any server please contact me at the <a href="contact"
       class="url-normal">contact</a> page :).</p>
   <p class="lead">
     <a href="#" class="btn btn-lg btn-outline-light">Learn More</a>
@@ -55,7 +55,7 @@ include_once "header.php";
     <hr class="hr line-center-1" />
     <p class="banner-3-text">Hosting various services that you can be a part of.
       <br><br>
-      To get your own account, please visit the <a href="contact.php" class="url-white">
+      To get your own account, please visit the <a href="contact" class="url-white">
         contact</a> page or message me on Discord: Turboot#3918.
     </p>
     <br>

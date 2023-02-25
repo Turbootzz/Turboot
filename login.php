@@ -34,7 +34,7 @@ include_once "header.php";
   ?>
       <br>
       Don't have an account yet?
-      <a class="text-black url-normal" style="text-decoration:none;" href="signup.php">Sign up here</a>
+      <a class="text-black url-normal" style="text-decoration:none;" href="signup">Sign up here</a>
     </form>
   </div>
 </div>
