@@ -1,6 +1,7 @@
 <?php
 include_once "header.php";
 ?>
+<br>
 <div class="login-whole">
   <div class="login-form square rounded-3 m-4">
     <h2>Login</h2>
@@ -19,29 +20,8 @@ include_once "header.php";
         <input type="password" name="pwd" class="form-control" placeholder="Password">
       </div>
 
-      <!-- 2 column grid layout for inline styling -->
-      <!-- <div class="row mb-4">
-    <div class="col d-flex justify-content-center"> -->
-      <!-- Checkbox -->
-      <!-- <div class="form-check">
-        <input class="form-check-input" type="checkbox" value="" id="form2Example31" checked />
-        <label class="form-check-label" for="form2Example31"> Remember me </label>
-      </div>
-    </div> -->
-
-      <!-- <div class="col"> -->
-      <!-- Simple link -->
-      <!-- <a href="#!">Forgot password?</a>
-    </div>
-  </div> -->
-
       <!-- Submit button -->
       <button type="submit" name="submit" class="btn btn-primary btn-block mb-4">Login</button>
-
-      <!-- Register buttons -->
-      <!-- <div class="text-center">
-    <p>Not a member? <a href="#!">Register</a></p>
-  </div> -->
 
       <?php // All error messages
   if (isset($_GET["error"])) {
@@ -54,7 +34,7 @@ include_once "header.php";
   ?>
       <br>
       Don't have an account yet?
-      <a class="nav-link text-white" href="signup.php"><u>Sign up here</u></a>
+      <a class="text-black url-normal" style="text-decoration:none;" href="signup.php">Sign up here</a>
     </form>
   </div>
 </div>

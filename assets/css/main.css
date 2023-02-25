@@ -225,15 +225,19 @@ header {
 .login-whole {
   padding-left: 250px;
   padding-right: 250px;
+  
 }
 
 .login-form {
   /* background-color: rgb(63, 63, 63); */
-  background-color: #2B2D42;
+  background-color: #fafafa;
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
   padding-left: 80px;
   padding-right: 80px;
+  color:black;
+  border-style: solid;
+  border-color: rgb(24, 24, 24);
 }
 
 /* Projects Page*/

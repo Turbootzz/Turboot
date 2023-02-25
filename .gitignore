@@ -69,5 +69,8 @@
 # Database template
 *.sql
 
-# config with keys
+# Config with keys
 config.js
+
+# Bootstrap
+assets/bootstrap

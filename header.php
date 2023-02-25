@@ -13,7 +13,7 @@ require "assets/includes/functions.inc.php"; // calls for the functions from fil
   <title>Turboot</title>
   <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
   <link rel="stylesheet" type="text/css" href="assets/css/main.css?v=<?php echo time(); ?>">
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/css/main-short.css" rel="stylesheet">
 </head>
 <!-- text-white bg-dark -->
