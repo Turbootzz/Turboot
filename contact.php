@@ -3,7 +3,7 @@ include_once "header.php";
 ?>
 <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
 </script>
-<script src="assets/js/config.js"></script>
+<script src="assets/js/emailjs.js"></script>
 <div class="contact-body">
     <div id="contact-form">
         <h3 class="contact-h3">Contact us</h3>

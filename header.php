@@ -14,6 +14,7 @@ require "assets/includes/functions.inc.php"; // calls for the functions from fil
   <link rel="stylesheet" type="text/css" href="assets/css/main.css?v=<?php echo time(); ?>">
   <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/css/main-short.css" rel="stylesheet">
+  <script src="assets/js/config.js"></script>
 </head>
 <body class="d-flex text-center">
   <header class="mb-auto">
