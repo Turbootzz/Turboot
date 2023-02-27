@@ -12,15 +12,15 @@ include_once "header.php";
 </div>
 <section class="banner-news">
 <div class="news-section container">
-    <p id="news-text">New website design.</p>
+    <h6 id="news-text">New website design.</h6>
   </div>
 </section>
 <section class="banner-1">
   <div class="section-div container">
     <div class="row">
       <div class="col-md-6">
-        <h1>My Projects</h1>
-        <hr class="hr line-2" />
+        <h2 class="h1">My Projects</h2>
+        <hr class="hr line-2">
         <p class="banner-1-text">My name is Thijs Herman, and I am a web developer.
           I've made many projects that can be useful for me or for other people. I am always trying to push
           myself and make new discoveries of the things I can build or make. Most of my projects are
@@ -29,7 +29,7 @@ include_once "header.php";
       </div>
       <span class="image-fit col-md-6">
         <a href="https://github.com/Turbootzz">
-          <img class="img-fluid rounded" src="assets/img/github.png" alt="Turboot Github Profile" width="" height="">
+          <img class="img-fluid rounded" src="assets/img/github.png" alt="Turboot Github Profile">
         </a>
       </span>
     </div>
@@ -37,8 +37,8 @@ include_once "header.php";
 </section>
 <section class="banner-2">
   <div class="section-div container">
-    <h1>How did I start?</h1>
-    <hr class="hr line-1" />
+    <h2 class="h1">How did I start?</h2>
+    <hr class="hr line-1">
     <p class="banner-2-text">I've always had interest in doing technical things since I was young.
       It all started when I was 11 years old and I got my dads old PC and I was really into Minecraft
       at the time. So I started a Minecraft server and eventually I started to make Java plugins for it.
@@ -51,15 +51,15 @@ include_once "header.php";
 </section>
 <section class="banner-3">
   <div class="section-div container">
-    <h1>My Services</h1>
-    <hr class="hr line-center-1" />
+    <h2 class="h1">My Services</h2>
+    <hr class="hr line-center-1">
     <p class="banner-3-text">Hosting various services that you can be a part of.
       <br><br>
       To get your own account, please visit the <a href="contact" class="url-white">
         contact</a> page or message me on Discord: Turboot#3918.
     </p>
     <br>
-    <div class="row" id="">
+    <div class="row">
       <div class="col-4 col-12-medium">
         <span class="image-fit">
           <a href="https://cloud.turboot.com">
@@ -68,21 +68,17 @@ include_once "header.php";
         </span>
         <h3 class="pb-3 turboot-cloud-long">Turboot Cloud</h3>
         <h3 class="turboot-cloud-short">Cloud</h3>
-        <a href="https://cloud.turboot.com">
-          <button type="button" class="btn btn-outline-secondary">Click Here</button>
-        </a>
+          <button type="button" onclick="window.open('https://cloud.turboot.com','_blank');" class="btn btn-outline-secondary">Click Here</button>
       </div>
       <div class="col-4 col-12-medium">
         <span class="image-fit">
-          <a href="https://jelly.turboot.com">
+          <a href="https://jelly.turboot.com" target="_blank">
             <img class="img-fluid rounded border border-success" src="assets/img/turboot-jelly.png" alt="Turboot Jellyfin">
           </a>
         </span>
         <h3 class="pb-3 jellyfin-long">Jellyfin (Films & Series)</h3>
         <h3 class="jellyfin-short">Jellyfin</h3>
-        <a href="https://jelly.turboot.com">
-          <button type="button" class="btn btn-outline-secondary">Click Here</button>
-        </a>
+          <button type="button" onclick="window.open('https://jelly.turboot.com','_blank');" class="btn btn-outline-secondary">Click Here</button>
       </div>
       <div class="col-4 col-12-medium">
         <span class="image-fit">
@@ -91,17 +87,15 @@ include_once "header.php";
           </a>
         </span>
         <h3 class="pb-3">Hosting</h3>
-        <a href="servers.php">
-          <button type="button" class="btn btn-outline-secondary">Click Here</button>
-        </a>
+          <button type="button" onclick="location.href='servers';" class="btn btn-outline-secondary">Click Here</button>
       </div>
     </div>
   </div>
 </section>
 <section class="banner-4">
   <div class="section-div container">
-    <h1>Turboot</h1>
-    <hr class="hr line-center-2" />
+    <h2 class="h1">Turboot</h2>
+    <hr class="hr line-center-2">
     <br>
   </div>
 </section>

@@ -3,11 +3,11 @@
 
 ## Navigation bar
 - [Home](https://turboot.com)
-- [Services](https://turboot.com/services.php)
-- [Projects](https://turboot.com/projects.php)
-- [Servers](https://turboot.com/servers.php)
-- [Contact](https://turboot.com/contact.php)
-- [Login](https://turboot.com/login.php)
+- [Projects](https://turboot.com/project)
+- [Services](https://turboot.com/services)
+- [Servers](https://turboot.com/servers)
+- [Contact](https://turboot.com/contact)
+- [Login](https://turboot.com/login)
 
 ## Discord
  Turboot#3918

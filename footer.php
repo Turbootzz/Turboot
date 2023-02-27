@@ -10,9 +10,7 @@
   // }
   ?>
 </footer>
-<!-- <script type="text/javascript" src="assets/js/popper.min.js"></script> -->
 <script src="assets/js/main.js"></script>
 <script src="assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/bootstrap/js/bootstrap.js"></script>
 </body>
 </html>

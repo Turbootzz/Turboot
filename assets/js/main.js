@@ -2,14 +2,14 @@ console.log("Turboot Website");
 
 // EmailJS
 
-var PUBLIC_KEY = config.PUBLIC_KEY;
-var SERVICE_ID = config.SERVICE_ID;
-var TEMPLATE_ID = config.TEMPLATE_ID;
+let PUBLIC_KEY = config.PUBLIC_KEY;
+let SERVICE_ID = config.SERVICE_ID;
+let TEMPLATE_ID = config.TEMPLATE_ID;
 (function () {
    emailjs.init(PUBLIC_KEY);
 })();
 
-function sendMail() {
+function sendMail(SERVICE_ID, TEMPLATE_ID) {
    var params = {
       name : document.getElementById("name").value,
       email : document.getElementById("email").value,
