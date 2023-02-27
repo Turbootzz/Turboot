@@ -4,7 +4,6 @@ require "assets/includes/functions.inc.php"; // calls for the functions from fil
 ?>
 <!doctype html>
 <html lang="en" class="h-100">
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,8 +15,6 @@ require "assets/includes/functions.inc.php"; // calls for the functions from fil
   <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/css/main-short.css" rel="stylesheet">
 </head>
-<!-- text-white bg-dark -->
-
 <body class="d-flex text-center">
   <header class="mb-auto">
     <!-- header div -->
@@ -34,28 +31,34 @@ require "assets/includes/functions.inc.php"; // calls for the functions from fil
             <a class="nav-link <?php active('project'); ?>" href="project">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link dropdown-toggle <?php active('services'); ?>" href="services" role="button" data-bs-toggle="dropdown">
-            Services
-          </a>
-          <ul class="dropdown-turboot dropdown-menu dropdown-menu-dark">
-            <li><a class="dropdown-item" href="https://cloud.turboot.com" target="_blank">Nextcloud</a></li>
-            <li><a class="dropdown-item" href="https://jelly.turboot.com" target="_blank">Jellyfin</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="services">Other...</a></li>
-          </ul>
+            <a class="nav-link dropdown-toggle <?php active('services'); ?>" href="services" role="button"
+              data-bs-toggle="dropdown">
+              Services
+            </a>
+            <ul class="dropdown-turboot dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="https://cloud.turboot.com" target="_blank">Nextcloud</a></li>
+              <li><a class="dropdown-item" href="https://jelly.turboot.com" target="_blank">Jellyfin</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="services">Other...</a></li>
+            </ul>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle <?php active('servers'); ?>" href="servers" role="button" data-bs-toggle="dropdown">
-            Servers
-          </a>
-          <ul class="dropdown-turboot dropdown-menu dropdown-menu-dark">
-            <li><a class="dropdown-item" href="servers">Minecraft</a></li>
-            <li><a class="dropdown-item" href="servers">ARK: Survival Evolved</a></li>
-            <li><a class="dropdown-item" href="servers">The Forest</a></li>
-            <li><a class="dropdown-item" href="https://discord.gg/ctVVghh" target="_blank">Discord</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="servers">Other...</a></li>
-          </ul>
+            <a class="nav-link dropdown-toggle <?php active('servers'); ?>" href="servers" role="button"
+              data-bs-toggle="dropdown">
+              Servers
+            </a>
+            <ul class="dropdown-turboot dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="servers">Minecraft</a></li>
+              <li><a class="dropdown-item" href="servers">ARK: Survival Evolved</a></li>
+              <li><a class="dropdown-item" href="servers">The Forest</a></li>
+              <li><a class="dropdown-item" href="https://discord.gg/ctVVghh" target="_blank">Discord</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="servers">Other...</a></li>
+            </ul>
           </li>
           <li class="nav-item">
             <a class="nav-link <?php active('contact'); ?>" href="contact">Contact</a>
@@ -76,5 +79,4 @@ require "assets/includes/functions.inc.php"; // calls for the functions from fil
     </div>
   </header>
   <div class="cover-container d-flex w-100 h-100 mx-auto flex-column">
-    <!-- used to have px-3 -->
-    <main>
+<main>

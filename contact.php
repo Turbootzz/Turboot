@@ -1,13 +1,13 @@
 <?php
 include_once "header.php";
 ?>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
 </script>
-<script type="text/javascript" src="assets/js/config.js"></script>
+<script src="assets/js/config.js"></script>
 <div class="contact-body">
     <div id="contact-form">
         <h3 class="contact-h3">Contact us</h3>
-        <div id="contact-form" class="contact-form-class">
+        <div class="contact-form-class">
             <input type="hidden" name="contact_number">
             <div class="contact-form-group">
                 <label for="name" class="contact-label">Your name</label>
@@ -16,7 +16,7 @@ include_once "header.php";
                 </div>
             </div>
             <div class="contact-form-group">
-                <label for="mail" class="contact-label">Your email address</label>
+                <label for="email" class="contact-label">Your email address</label>
                 <div class="contact-input-group">
                     <input type="email" id="email" name="email" class="contact-form-control" required>
                 </div>
