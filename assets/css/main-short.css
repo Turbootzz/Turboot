@@ -44,7 +44,7 @@
   border-bottom-color: #fff;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
   .nav-masthead .nav-link {
     border-bottom: none;
     height: auto;
@@ -61,6 +61,6 @@
   }
   .nav-masthead .active {
     color: #fff;
-    background-color: rgba(255, 255, 255, .25);;
+    background-color: rgba(255, 255, 255, .25);
   }
 }

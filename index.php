@@ -7,7 +7,7 @@ include_once "header.php";
     for a web developer or if you want to host any server please contact me at the <a href="contact"
       class="url-normal">contact</a> page :).</p>
   <p class="lead">
-    <a href="#turboot-start" class="btn btn-lg btn-outline-light">Learn More</a>
+    <a href="#my-projects" class="btn btn-lg btn-outline-light">Learn More</a>
   </p>
 </div>
 <section class="banner-news">
@@ -19,7 +19,7 @@ include_once "header.php";
   <div class="section-div container">
     <div class="row">
       <div class="col-md-6">
-        <h2 id="turboot-start" class="h1">My Projects</h2>
+        <h2 id="my-projects" class="h1">My Projects</h2>
         <hr class="hr line-2">
         <p class="banner-1-text">My name is Thijs Herman, and I am a web developer.
           I've made many projects that can be useful for me or for other people. I am always trying to push
