@@ -41,7 +41,7 @@ require "assets/includes/functions.inc.php"; // calls for the functions from fil
               <li class="nav-item">
                 <a class="nav-link <?php active('project'); ?>" href="project">Projects</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle <?php active('services'); ?>" href="services" role="button"
                   data-bs-toggle="dropdown">
                   Services
