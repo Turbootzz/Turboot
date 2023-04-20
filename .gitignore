@@ -72,5 +72,8 @@ config.js
 # Bootstrap
 assets/bootstrap
 
+# Downloads
+assets/downloads
+
 # .htaccess
 .htaccess
