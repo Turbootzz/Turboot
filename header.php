@@ -61,7 +61,7 @@ require "assets/includes/functions.inc.php"; // calls for the functions from fil
                   Servers
                 </a>
                 <ul class="dropdown-turboot dropdown-menu dropdown-menu-dark">
-                  <li><a class="dropdown-item" href="servers">Minecraft</a></li>
+                  <li><a class="dropdown-item" href="cobblemon">MC Cobblemon</a></li>
                   <li><a class="dropdown-item" href="servers">ARK: Survival Evolved</a></li>
                   <li><a class="dropdown-item" href="servers">The Forest</a></li>
                   <li><a class="dropdown-item" href="https://discord.gg/ctVVghh" target="_blank">Discord</a></li>

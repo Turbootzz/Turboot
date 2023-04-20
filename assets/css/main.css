@@ -510,6 +510,17 @@ input[type="button"].contact-btn-block {
   width: 100%;
 }
 
+/* Cobblemon */
+
+#cobbleleft {
+  float: left;
+}
+
+#cobbleright {
+  float: right;
+  margin-right: 2%
+}
+
 /* --Footer-- */
 
 footer {
