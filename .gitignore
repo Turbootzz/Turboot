@@ -74,6 +74,8 @@ assets/bootstrap
 
 # Downloads
 assets/downloads
+assets/downloads/modpack-bf-cobblemon-1.19.2.zip
+*.zip
 
 # .htaccess
 .htaccess

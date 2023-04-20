@@ -29,10 +29,14 @@
         <br>
         <hr>
         <br>
+        <h3>Download Fabric Installer (Windows)</h3>
+        <a href="https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.11.2/fabric-installer-0.11.2.exe"><button class="btn" style="width:100%"><i
+                    class="fa fa-download"></i> Download</button></a>
+                    <br>
+                    <br>
         <h3>Download Cobblemon Modpack</h3>
         <a href="assets/downloads/modpack-bf-cobblemon-1.19.2.zip"><button class="btn" style="width:100%"><i
                     class="fa fa-download"></i> Download</button></a>
-        <br>
         <br>
         <br>
         <br>
@@ -41,10 +45,11 @@
         <div id="left">
             <ul>
                 <h4>Instructions</h4>
-                <li>Download the zip, go to the place where it is downloaded.</li>
-                <li>Press right-click on it and unzip it.</li>
-                <li>Open the folder you just unzipped.</li>
-                <li>Open the fabric-installer(version).jar file and install the 1.19.2 version in your client.</li>
+                <li>Download the <a
+                    href="https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.11.2/fabric-installer-0.11.2.exe">fabric installer</a> and open it.</li>
+                <li>Install the 1.19.2 version in your client.</li>
+                <li>After that, download the <a href="assets/downloads/modpack-bf-cobblemon-1.19.2.zip">modpack</a> and open it.</li>
+                <li>Open the zip.</li>
                 <li>To download the mods, go to file explorer and type in the address bar: %appdata%</li>
                 <li>After doing that you should open the .minecraft folder</li>
                 <li>You should see a folder named: "mods", if you don't, just make one.</li>
