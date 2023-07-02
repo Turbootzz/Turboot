@@ -1,5 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="en">
+
 <head>
     <meta charset="utf-8">
     <title>Turboot - Pixelmon</title>
@@ -16,6 +17,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
 </head>
+
 <body>
     <header>
         <ul class="topnav">
@@ -30,25 +32,28 @@
         <hr>
         <br>
         <h3>Download Fabric Installer (Windows)</h3>
-        <a href="https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.11.2/fabric-installer-0.11.2.exe"><button class="btn" style="width:100%"><i
-                    class="fa fa-download"></i> Download</button></a>
-                    <br>
-                    <br>
+        <a href="https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.11.2/fabric-installer-0.11.2.exe"><button
+                class="btn" style="width:100%"><i class="fa fa-download"></i> Download</button></a>
+        <br>
+        <br>
         <h3>Download Cobblemon Modpack</h3>
-        <a href="assets/downloads/modpack-bf-cobblemon-1.19.2.zip"><button class="btn" style="width:100%"><i
+        <a href="assets/downloads/modpack-bf-cobblemon-1.19.2-v1.1.zip"><button class="btn" style="width:100%"><i
                     class="fa fa-download"></i> Download</button></a>
         <br>
         <br>
         <br>
         <hr>
         <br>
+        <h2>Server IP: mc.turboot.com</h2>
         <div id="left">
             <ul>
                 <h4>Instructions</h4>
                 <li>Download the <a
-                    href="https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.11.2/fabric-installer-0.11.2.exe">fabric installer</a> and open it.</li>
+                        href="https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.11.2/fabric-installer-0.11.2.exe">fabric
+                        installer</a> and open it.</li>
                 <li>Install the 1.19.2 version in your client.</li>
-                <li>After that, download the <a href="assets/downloads/modpack-bf-cobblemon-1.19.2.zip">modpack</a> and open it.</li>
+                <li>After that, download the <a href="assets/downloads/modpack-bf-cobblemon-1.19.2.zip">modpack</a> and
+                    open it.</li>
                 <li>Open the zip.</li>
                 <li>To download the mods, go to file explorer and type in the address bar: %appdata%</li>
                 <li>After doing that you should open the .minecraft folder</li>
@@ -59,6 +64,9 @@
             </ul>
             <p style="margin-left: 10px;"> If you do not get my poor explenation just <a
                     href="https://discord.gg/Z9dZC6V7cQ">click here</a> to join our discord and I'll help you out :)</p>
+            <p style="margin-left: 10px;"> For mac/linux users, download the <a
+                    href="https://maven.fabricmc.net/net/fabricmc/fabric-installer/0.11.2/fabric-installer-0.11.2.jar">universal
+                    fabric installer.</a></p>
         </div>
         <ul id="right">
             <h4>Requirements</h4>
@@ -79,4 +87,5 @@
     <footer>
     </footer>
 </body>
+
 </html>
