@@ -1,6 +1,7 @@
 <?php
 include_once "header.php";
 ?>
+<div class="cover-container d-flex mx-auto flex-column">
 <div class="middletext">
   <h1 class="title">Thijs Herman</h1>
   <p class="lead">This website is made for my personal projects. Everything is still in development. If you're looking
@@ -9,6 +10,7 @@ include_once "header.php";
   <p class="lead">
     <a href="#my-projects" class="btn btn-lg btn-outline-light">Learn More</a>
   </p>
+</div>
 </div>
 <section class="banner-news">
 <div class="news-section container">
@@ -76,8 +78,8 @@ include_once "header.php";
             <img class="img-fluid rounded border border-success" src="assets/img/turboot-jelly.png" alt="Turboot Jellyfin">
           </a>
         </span>
-        <h3 class="pb-3 jellyfin-long">Jellyfin (Films & Series)</h3>
-        <h3 class="jellyfin-short">Jellyfin</h3>
+        <h3 class="pb-3 jellyfin-long">Jelly (Films & Series)</h3>
+        <h3 class="jellyfin-short">Jelly</h3>
           <button type="button" onclick="window.open('https://jelly.turboot.com','_blank');" class="btn btn-outline-secondary">Click Here</button>
       </div>
       <div class="col-4 col-12-medium">

@@ -47,9 +47,9 @@ require "assets/includes/functions.inc.php"; // calls for the functions from fil
                   Services
                 </a>
                 <ul class="dropdown-turboot dropdown-menu dropdown-menu-dark">
-                  <li><a class="dropdown-item" href="https://cloud.turboot.com" target="_blank">Nextcloud</a></li>
-                  <li><a class="dropdown-item" href="https://jelly.turboot.com" target="_blank">Jellyfin</a></li>
-                  <li><a class="dropdown-item" href="https://manga.turboot.com" target="_blank">Read Manga</a></li>
+                  <li><a class="dropdown-item" href="https://cloud.turboot.com" target="_blank">Cloud Storage</a></li>
+                  <li><a class="dropdown-item" href="https://jelly.turboot.com" target="_blank">Jelly Films & Series</a></li>
+                  <li><a class="dropdown-item" href="https://manga.turboot.com" target="_blank">Manga & Comics</a></li>
                   <li>
                     <hr class="dropdown-divider">
                   </li>
@@ -63,9 +63,9 @@ require "assets/includes/functions.inc.php"; // calls for the functions from fil
                 </a>
                 <ul class="dropdown-turboot dropdown-menu dropdown-menu-dark">
                   <li><a class="dropdown-item" href="cobblemon">MC Cobblemon</a></li>
-                  <li><a class="dropdown-item" href="servers">ARK: Survival Evolved</a></li>
-                  <li><a class="dropdown-item" href="servers">The Forest</a></li>
-                  <li><a class="dropdown-item" href="https://discord.gg/ctVVghh" target="_blank">Discord</a></li>
+                  <li><a class="dropdown-item" href="servers">ARK: Survival Ascended</a></li>
+                  <li><a class="dropdown-item" href="servers">Palworld</a></li>
+                  <li><a class="dropdown-item" href="https://discord.gg/QdWQQpDzTw" target="_blank">Discord</a></li>
                   <li>
                     <hr class="dropdown-divider">
                   </li>
@@ -92,5 +92,4 @@ require "assets/includes/functions.inc.php"; // calls for the functions from fil
       </nav>
     </div>
   </header>
-  <div class="cover-container d-flex w-100 h-100 mx-auto flex-column">
     <main>
