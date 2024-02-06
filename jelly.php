@@ -36,7 +36,7 @@ include_once "header.php";
           </a>
         </span>
         <h3 class="pb-3 turboot-cloud-long">Request Jelly Account</h3>
-        <h3 class="turboot-cloud-short">Request</h3>
+        <h3 class="turboot-cloud-short">Req Account</h3>
           <button type="button" onclick="window.open('https://discord.gg/QdWQQpDzTw','_blank');" class="btn btn-outline-secondary">Click Here</button>
       </div>
       <div class="col-4 col-12-medium">
@@ -55,7 +55,8 @@ include_once "header.php";
             <img class="img-fluid jelly-img" src="assets/img/jelly-req-icon-h.png" alt="Turboot Hosting" style="--color:#001954">
           </a>
         </span>
-        <h3 class="pb-3">Request a film or serie!</h3>
+        <h3 class="pb-3 req-long">Request a film or serie!</h3>
+        <h3 class="req-short">Req Media</h3>
           <button type="button" onclick="window.open('https://request.turboot.com','_blank');" class="btn btn-outline-secondary">Click Here</button>
       </div>
     </div>

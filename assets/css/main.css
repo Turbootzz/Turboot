@@ -227,6 +227,7 @@ nav {
 
 .turboot-cloud-short { display: none; }
 .jellyfin-short { display: none; }
+.req-short { display: none; }
 
 .banner-4 {
   margin-left: calc(50% - 50vw);
@@ -631,6 +632,11 @@ footer {
     padding-bottom: 1rem;
   }
   .jellyfin-long { display: none; }
+  .req-short { 
+    display: block;
+    padding-bottom: 1rem;
+  }
+  .req-long { display: none; }
 
   .cards {
     display: grid;
