@@ -42,13 +42,13 @@ require "assets/includes/functions.inc.php"; // calls for the functions from fil
                 <a class="nav-link <?php active('project'); ?>" href="project">Projects</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle <?php active('services'); ?>" href="services" role="button"
+                <a class="nav-link dropdown-toggle <?php active('services'); active('jelly'); ?>" href="services" role="button"
                   data-bs-toggle="dropdown">
                   Services
                 </a>
                 <ul class="dropdown-turboot dropdown-menu dropdown-menu-dark">
                   <li><a class="dropdown-item" href="https://cloud.turboot.com" target="_blank">Cloud Storage</a></li>
-                  <li><a class="dropdown-item" href="https://jelly.turboot.com" target="_blank">Jelly Films & Series</a></li>
+                  <li><a class="dropdown-item" href="jelly">Jelly Films & Series</a></li>
                   <li><a class="dropdown-item" href="https://manga.turboot.com" target="_blank">Manga & Comics</a></li>
                   <li>
                     <hr class="dropdown-divider">

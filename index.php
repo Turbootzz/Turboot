@@ -58,13 +58,13 @@ include_once "header.php";
     <p class="banner-3-text">Hosting various services that you can be a part of.
       <br><br>
       To get your own account, please visit the <a href="contact" class="url-white">
-        contact</a> page or message me on Discord: Turboot#3918.
+        contact</a> page or message me on Discord: @turboot.
     </p>
     <br>
     <div class="row">
       <div class="col-4 col-12-medium">
         <span class="image-fit">
-          <a href="https://cloud.turboot.com">
+          <a href="https://cloud.turboot.com" target="_blank">
             <img class="img-fluid rounded border border-success" src="assets/img/turboot-cloud.png" alt="Turboot Cloud">
           </a>
         </span>
@@ -75,7 +75,7 @@ include_once "header.php";
       <div class="col-4 col-12-medium">
         <span class="image-fit">
           <a href="https://jelly.turboot.com" target="_blank">
-            <img class="img-fluid rounded border border-success" src="assets/img/turboot-jelly.png" alt="Turboot Jellyfin">
+            <img class="img-fluid rounded border border-success" src="assets/img/turboot-jelly.png" alt="Turboot Jelly">
           </a>
         </span>
         <h3 class="pb-3 jellyfin-long">Jelly (Films & Series)</h3>
@@ -84,7 +84,7 @@ include_once "header.php";
       </div>
       <div class="col-4 col-12-medium">
         <span class="image-fit">
-          <a href="servers.php">
+          <a href="servers">
             <img class="img-fluid rounded border border-success" src="assets/img/turboot-hosting.png" alt="Turboot Hosting">
           </a>
         </span>
