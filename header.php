@@ -8,7 +8,20 @@ require "assets/includes/functions.inc.php"; // calls for the functions from fil
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Turboot web development and hosting.">
+  <meta content="Turboot Web" property="og:title" />
+  <meta content="Welcome to Turboot, the digital hub crafted by Thijs Herman, a seasoned web developer and PC builder. 
+  At Turboot, we offer a comprehensive suite of services tailored to elevate your online presence and gaming experience. 
+  From expertly crafted websites to bespoke PC builds, hosting solutions, and media servers, 
+  we're your one-stop destination for all things tech. Whether you're seeking top-notch web development, reliable hosting, 
+  or immersive gaming environments, Turboot has you covered." property="og:description" />
+  <meta content="https://turboot.com" property="og:url" />
+  <meta content="https://turboot.com/assets/img/icon.png" property="og:image" />
+  <meta content="#3434eb" data-react-helmet="true" name="theme-color" />
+  <meta name="description" content="Welcome to Turboot, the digital hub crafted by Thijs Herman, a seasoned web developer and PC builder. 
+  At Turboot, we offer a comprehensive suite of services tailored to elevate your online presence and gaming experience. 
+  From expertly crafted websites to bespoke PC builds, hosting solutions, and media servers, 
+  we're your one-stop destination for all things tech. Whether you're seeking top-notch web development, reliable hosting, 
+  or immersive gaming environments, Turboot has you covered.">
   <meta name="author" content="Thijs Herman">
   <title>Turboot</title>
   <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
