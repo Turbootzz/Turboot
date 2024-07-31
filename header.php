@@ -62,7 +62,7 @@ require "assets/includes/functions.inc.php"; // calls for the functions from fil
                 <ul class="dropdown-turboot dropdown-menu dropdown-menu-dark">
                   <li><a class="dropdown-item" href="https://cloud.turboot.com" target="_blank">Cloud Storage</a></li>
                   <li><a class="dropdown-item" href="jelly">Jelly Films & Series</a></li>
-                  <li><a class="dropdown-item" href="https://manga.turboot.com" target="_blank">Manga & Comics</a></li>
+                  <li><a class="dropdown-item" href="https://read.turboot.com" target="_blank">Manga & E-books</a></li>
                   <li>
                     <hr class="dropdown-divider">
                   </li>
